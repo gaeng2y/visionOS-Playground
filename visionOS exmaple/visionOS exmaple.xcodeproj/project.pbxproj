@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE7B12DD2A449B1500F7804A /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = CE7B12DC2A449B1500F7804A /* RealityKitContent */; };
+		CE7B12DF2A449B1500F7804A /* visionOS_exmapleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B12DE2A449B1500F7804A /* visionOS_exmapleApp.swift */; };
+		CE7B12E12A449B1500F7804A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B12E02A449B1500F7804A /* ContentView.swift */; };
+		CE7B12E32A449B1600F7804A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7B12E22A449B1600F7804A /* Assets.xcassets */; };
+		CE7B12E62A449B1600F7804A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7B12E52A449B1600F7804A /* Preview Assets.xcassets */; };
+		CE7B12F02A449B1600F7804A /* visionOS_exmapleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B12EF2A449B1600F7804A /* visionOS_exmapleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE7B12EC2A449B1600F7804A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7B12CF2A449B1500F7804A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE7B12D62A449B1500F7804A;
+			remoteInfo = "visionOS exmaple";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE7B12D72A449B1500F7804A /* visionOS exmaple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "visionOS exmaple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7B12DB2A449B1500F7804A /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		CE7B12DE2A449B1500F7804A /* visionOS_exmapleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visionOS_exmapleApp.swift; sourceTree = "<group>"; };
+		CE7B12E02A449B1500F7804A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE7B12E22A449B1600F7804A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE7B12E52A449B1600F7804A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE7B12EB2A449B1600F7804A /* visionOS exmapleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "visionOS exmapleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7B12EF2A449B1600F7804A /* visionOS_exmapleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visionOS_exmapleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7B12D42A449B1500F7804A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7B12DD2A449B1500F7804A /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7B12E82A449B1600F7804A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE7B12CE2A449B1500F7804A = {
+			isa = PBXGroup;
+			children = (
+				CE7B12D92A449B1500F7804A /* visionOS exmaple */,
+				CE7B12DA2A449B1500F7804A /* Packages */,
+				CE7B12EE2A449B1600F7804A /* visionOS exmapleTests */,
+				CE7B12D82A449B1500F7804A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7B12D82A449B1500F7804A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B12D72A449B1500F7804A /* visionOS exmaple.app */,
+				CE7B12EB2A449B1600F7804A /* visionOS exmapleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7B12D92A449B1500F7804A /* visionOS exmaple */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B12DE2A449B1500F7804A /* visionOS_exmapleApp.swift */,
+				CE7B12E02A449B1500F7804A /* ContentView.swift */,
+				CE7B12E22A449B1600F7804A /* Assets.xcassets */,
+				CE7B12E42A449B1600F7804A /* Preview Content */,
+			);
+			path = "visionOS exmaple";
+			sourceTree = "<group>";
+		};
+		CE7B12DA2A449B1500F7804A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B12DB2A449B1500F7804A /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		CE7B12E42A449B1600F7804A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B12E52A449B1600F7804A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE7B12EE2A449B1600F7804A /* visionOS exmapleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE7B12EF2A449B1600F7804A /* visionOS_exmapleTests.swift */,
+			);
+			path = "visionOS exmapleTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7B12D62A449B1500F7804A /* visionOS exmaple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7B12F32A449B1600F7804A /* Build configuration list for PBXNativeTarget "visionOS exmaple" */;
+			buildPhases = (
+				CE7B12D32A449B1500F7804A /* Sources */,
+				CE7B12D42A449B1500F7804A /* Frameworks */,
+				CE7B12D52A449B1500F7804A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "visionOS exmaple";
+			packageProductDependencies = (
+				CE7B12DC2A449B1500F7804A /* RealityKitContent */,
+			);
+			productName = "visionOS exmaple";
+			productReference = CE7B12D72A449B1500F7804A /* visionOS exmaple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE7B12EA2A449B1600F7804A /* visionOS exmapleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7B12F62A449B1600F7804A /* Build configuration list for PBXNativeTarget "visionOS exmapleTests" */;
+			buildPhases = (
+				CE7B12E72A449B1600F7804A /* Sources */,
+				CE7B12E82A449B1600F7804A /* Frameworks */,
+				CE7B12E92A449B1600F7804A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE7B12ED2A449B1600F7804A /* PBXTargetDependency */,
+			);
+			name = "visionOS exmapleTests";
+			productName = "visionOS exmapleTests";
+			productReference = CE7B12EB2A449B1600F7804A /* visionOS exmapleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7B12CF2A449B1500F7804A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CE7B12D62A449B1500F7804A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CE7B12EA2A449B1600F7804A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CE7B12D62A449B1500F7804A;
+					};
+				};
+			};
+			buildConfigurationList = CE7B12D22A449B1500F7804A /* Build configuration list for PBXProject "visionOS exmaple" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE7B12CE2A449B1500F7804A;
+			productRefGroup = CE7B12D82A449B1500F7804A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7B12D62A449B1500F7804A /* visionOS exmaple */,
+				CE7B12EA2A449B1600F7804A /* visionOS exmapleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7B12D52A449B1500F7804A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7B12E62A449B1600F7804A /* Preview Assets.xcassets in Resources */,
+				CE7B12E32A449B1600F7804A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7B12E92A449B1600F7804A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7B12D32A449B1500F7804A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7B12E12A449B1500F7804A /* ContentView.swift in Sources */,
+				CE7B12DF2A449B1500F7804A /* visionOS_exmapleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7B12E72A449B1600F7804A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7B12F02A449B1600F7804A /* visionOS_exmapleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE7B12ED2A449B1600F7804A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE7B12D62A449B1500F7804A /* visionOS exmaple */;
+			targetProxy = CE7B12EC2A449B1600F7804A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE7B12F12A449B1600F7804A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		CE7B12F22A449B1600F7804A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		CE7B12F42A449B1600F7804A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"visionOS exmaple/Preview Content\"";
+				DEVELOPMENT_TEAM = 8UV3Y69NB7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gaeng2y.visionOS-exmaple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		CE7B12F52A449B1600F7804A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"visionOS exmaple/Preview Content\"";
+				DEVELOPMENT_TEAM = 8UV3Y69NB7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gaeng2y.visionOS-exmaple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+		CE7B12F72A449B1600F7804A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UV3Y69NB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gaeng2y.visionOS-exmapleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/visionOS exmaple.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/visionOS exmaple";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		CE7B12F82A449B1600F7804A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8UV3Y69NB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gaeng2y.visionOS-exmapleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/visionOS exmaple.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/visionOS exmaple";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE7B12D22A449B1500F7804A /* Build configuration list for PBXProject "visionOS exmaple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7B12F12A449B1600F7804A /* Debug */,
+				CE7B12F22A449B1600F7804A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7B12F32A449B1600F7804A /* Build configuration list for PBXNativeTarget "visionOS exmaple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7B12F42A449B1600F7804A /* Debug */,
+				CE7B12F52A449B1600F7804A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7B12F62A449B1600F7804A /* Build configuration list for PBXNativeTarget "visionOS exmapleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7B12F72A449B1600F7804A /* Debug */,
+				CE7B12F82A449B1600F7804A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE7B12DC2A449B1500F7804A /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CE7B12CF2A449B1500F7804A /* Project object */;
+}
